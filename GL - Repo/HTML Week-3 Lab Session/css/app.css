@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+}
+
+.banner {
+    position: relative;
+    padding: 0.1em;
+    text-align: center;
+    background-color: darkslategray;
+    color: white;
+}
+
+.banner-actions {
+    position: absolute;
+    top: 16px;
+    right: 10px;
+}
+
+.banner-actions a {
+    display: inline-block;
+    padding: 0.5em;
+    border-radius: 0.35em;
+    text-decoration: none;
+    color: white;
+    font-size: 1.15em;
+    background-color: rgb(160, 160, 160);
+}
+
+.banner-actions a:hover {
+    background-color: black;
+}
+
+.menu {
+    background-color: rgb(119, 127, 119);
+    overflow: auto;
+}
+
+.left-menu {
+    float: left;
+}
+.right-menu {
+    float: right;
+}
+
+.left-menu,.right-menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.left-menu li,.right-menu li {
+display: inline-block;
+}
+
+.left-menu a,.right-menu a {
+    display: inline-block;
+    padding: 0.35em;
+    margin: 0 0.25em;
+    text-decoration: none ;
+    color: white;
+}
+
+.left-menu a:hover,.right-menu a:hover {
+    background-color: black;
+}
