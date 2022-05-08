@@ -1,4 +1,4 @@
-body{
+body {
     background-color: azure;
 }
 
@@ -18,7 +18,7 @@ body{
     padding: 1em;
     border: 1px solid black;
     border-radius: 1em;
-   
+
 }
 
 input {
@@ -36,6 +36,7 @@ input {
 .selectors {
     width: 2%;
 }
+
 .parent-layout {
     display: inline-block;
     padding: 0.2em;
@@ -57,13 +58,13 @@ input {
     height: 90%;
     margin-left: 300px;
     margin-top: 1px;
-    float:right;
+    float: right;
     position: fixed;
 }
 
 .sr {
-    
-    width:20%;
+
+    width: 20%;
     border-radius: 5px;
     display: inline-block;
     color: whitesmoke;

@@ -1,86 +1,90 @@
 body {
-margin: 0;
-background-color: beige;
+  margin: 0;
+  background-color: beige;
 }
-*, :after, :before {
-box-sizing: border-box;
+
+*,
+:after,
+:before {
+  box-sizing: border-box;
 }
+
 /* *{ margin: 0%; } */
 
 .heading {
-padding: 1em;
-text-align: center;
-background-color: rgb(102, 95, 95);
-color: white;
-margin: 0;
+  padding: 1em;
+  text-align: center;
+  background-color: rgb(102, 95, 95);
+  color: white;
+  margin: 0;
 }
 
 .heading h1 {
-margin: 0;
+  margin: 0;
 
 }
 
 .menu {
-background-color: rgb(175, 182, 175);
-margin: auto;
-height: 100%;
-margin-top: 0;
-padding-top: 0;
-position: sticky;
-top: 0;
-z-index: 100;
+  background-color: rgb(175, 182, 175);
+  margin: auto;
+  height: 100%;
+  margin-top: 0;
+  padding-top: 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 
 
 .menu-group {
-padding: 0;
-margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
-.menu-group > li {
-display: inline-block;
-padding: 0.5em;
+.menu-group>li {
+  display: inline-block;
+  padding: 0.5em;
 }
 
-.menu-group > li:hover {
-background-color: black;
+.menu-group>li:hover {
+  background-color: black;
 }
 
-.menu-group > li a {
-color: white;
-text-decoration: none;
+.menu-group>li a {
+  color: white;
+  text-decoration: none;
 }
 
 .sub-menu-group-container {
-position: relative;
+  position: relative;
 }
 
 .sub-menu-group {
-display: none;
-position: absolute;
-top: 100%;
-background-color: white;
-padding: 0;
-margin: 0;
-list-style-type: none;
+  display: none;
+  position: absolute;
+  top: 100%;
+  background-color: white;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
 
 }
 
 /* The .sub-menu-group which is within the .sub-menu-group-container over which the user is hovering is to be shown */
 .sub-menu-group-container:hover .sub-menu-group {
-display: block;
+  display: block;
 }
 
-.sub-menu-group > li a {
-display: inline-block;
-width: 120px;
-padding: 0.5em;
-color: teal;
+.sub-menu-group>li a {
+  display: inline-block;
+  width: 120px;
+  padding: 0.5em;
+  color: teal;
 }
 
-.sub-menu-group > li:hover a {
-background-color: black;
-color: white;
+.sub-menu-group>li:hover a {
+  background-color: black;
+  color: white;
 }
 
 #slideshow {
@@ -104,11 +108,11 @@ with a fixed width and height */
 /* Add animation to the slides */
 
 .slide-wrapper {
-   
+
   /* Calculate the total width on the
 basis of number of slides */
   width: calc(728px * 5);
-   
+
   /* Specify the animation with the
 duration and speed */
   animation: slide 10s ease infinite;
@@ -119,32 +123,36 @@ duration and speed */
 for the slideshow */
 
 @keyframes slide {
-   
+
   /* Calculate the margin-left for
 each of the slides */
   20% {
-      margin-left: 0px;
+    margin-left: 0px;
   }
+
   40% {
-      margin-left: calc(-728px * 1);
+    margin-left: calc(-728px * 1);
   }
+
   60% {
-      margin-left: calc(-728px * 2);
+    margin-left: calc(-728px * 2);
   }
+
   80% {
-      margin-left: calc(-728px * 3);
+    margin-left: calc(-728px * 3);
   }
+
   100% {
     margin-left: calc(-728px * 4);
-}
+  }
 }
 
 .footer {
-position: fixed;
-left: 0;
-bottom: 0;
-width: 100%;
-background-color: black;
-color: white;
-text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
 }

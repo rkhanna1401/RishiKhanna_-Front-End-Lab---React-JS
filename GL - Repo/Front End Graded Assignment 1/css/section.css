@@ -1,9 +1,7 @@
-
-
 .section-heading {
     text-decoration: solid;
     color: black;
-    margin-left:1%;
+    margin-left: 1%;
 }
 
 .product-division {
@@ -41,16 +39,16 @@
     color: yellowgreen;
     vertical-align: middle;
     float: inline-start;
-    width:50%;
-    margin-left:25%;
-    margin-right:25%;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 
-.add-cart:active{
+.add-cart:active {
     background-color: rgb(250, 234, 230);
     border: rgb(0, 255, 76);
 }
 
 .product-division:hover {
-    padding:8px 15px 5px 6px;
+    padding: 8px 15px 5px 6px;
 }
