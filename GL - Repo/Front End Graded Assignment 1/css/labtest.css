@@ -1,0 +1,72 @@
+body{
+    background-color: azure;
+}
+
+.sub-heading {
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+.message {
+    font-size: 1.25em;
+    font-weight: bold;
+    color: red;
+}
+
+.form {
+    width: 70%;
+    padding: 1em;
+    border: 1px solid black;
+    border-radius: 1em;
+   
+}
+
+input {
+    width: 65%;
+    padding: 1em;
+    border: black;
+    font-size: 1em;
+    border-bottom: black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: azure;
+}
+
+.selectors {
+    width: 2%;
+}
+.parent-layout {
+    display: inline-block;
+    padding: 0.2em;
+    margin: 0 1em;
+    height: 100%;
+    clear: right;
+}
+
+.input-details {
+    margin-left: 2px;
+    display: inline-block;
+    background-color: azure;
+}
+
+.lab-image {
+    margin-top: 0%;
+    width: 30%;
+    border-radius: 5px;
+    height: 90%;
+    margin-left: 300px;
+    margin-top: 1px;
+    float:right;
+    position: fixed;
+}
+
+.sr {
+    
+    width:20%;
+    border-radius: 5px;
+    display: inline-block;
+    color: whitesmoke;
+    margin-left: 10px;
+    background-color: blueviolet;
+}

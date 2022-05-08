@@ -1,0 +1,56 @@
+
+
+.section-heading {
+    text-decoration: solid;
+    color: black;
+    margin-left:1%;
+}
+
+.product-division {
+    display: inline-block;
+    padding: 0.2em;
+    margin: 0 1.2em;
+    background: cornflowerblue;
+    height: 520px;
+    width: 22%;
+    position: relative;
+    margin-bottom: 20px;
+    margin-top: 0;
+    overflow-y: auto;
+}
+
+.product-list {
+    width: 100%;
+    padding: 0.5em;
+    color: black;
+    display: inline-block;
+}
+
+.covid-care {
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    height: 70%;
+}
+
+.add-cart {
+    border: black;
+    border-radius: 5px;
+    background-color: cyan;
+    align-self: auto;
+    color: yellowgreen;
+    vertical-align: middle;
+    float: inline-start;
+    width:50%;
+    margin-left:25%;
+    margin-right:25%;
+}
+
+.add-cart:active{
+    background-color: rgb(250, 234, 230);
+    border: rgb(0, 255, 76);
+}
+
+.product-division:hover {
+    padding:8px 15px 5px 6px;
+}
